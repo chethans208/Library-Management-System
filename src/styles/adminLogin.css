@@ -1,0 +1,40 @@
+.adminlogin{
+    margin: 100px;
+    
+}
+.form_container_card{
+    background-color: rgb(251, 245, 245);
+    margin: 100px;
+    padding: 70px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.log{
+    text-align: center;
+    margin-top: 10px;
+}
+.inemail,.inpassword{
+    padding: 10px 45px;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px black;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    background-color: transparent;
+}
+.form_input .login{
+    padding: 10px 105px;
+    margin-left: 28px;
+    font-size: medium;
+    margin-top: 40px;
+}
+
+.form_input .login:hover{
+    background-color: rgb(214, 82, 6);
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}

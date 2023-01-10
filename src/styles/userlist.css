@@ -1,0 +1,23 @@
+.user_section{
+    margin-left: 100px;
+    background-color: aqua;
+    padding: 25px 55px;
+    width: 75%;
+}
+.users{
+    background-color: rgb(59, 59, 236);
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 15px;
+    display: inline-table;
+    box-shadow: 5px 5px 5px rgb(10, 10, 11);
+    border-radius: 10px;
+}
+.rem{
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}

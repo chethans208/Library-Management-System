@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-image: url('../../public/images/blur\ image.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landingpage {
+    border-radius: 10px;
+    background-color: rgb(241, 244, 244);
+    margin: 150px 450px;
+    width: 600px;
+    height: 350px;
+    padding: 0px 50px 50px 0px;
+}
+
+.lib {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+}
+
+.selectLoginType {
+    margin: auto;
+}
+
+.admin,
+.user {
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 70px;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.admin {
+    border: 2px solid rgb(214, 82, 6);
+}
+
+.admin:hover {
+    background-color: rgb(214, 82, 6);
+    color: aliceblue;
+}
+
+.user {
+    border: 2px solid rgb(4, 185, 16);
+}
+
+.user:hover {
+    background-color: rgb(4, 185, 16);
+    color: aliceblue;
+}
+
+.adimg {
+    position: relative;
+    right: 53px;
+    top: 100px;
+    border-radius: 50%;
+}
+
+.usimg {
+    position: relative;
+    top: 100px;
+    right: 45px;
+    border-radius: 50%;
+
+}
