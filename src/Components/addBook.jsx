@@ -24,7 +24,6 @@ const AddBook = () => {
         navigate('/admin/book-list')
     }
 
-
     return (
         <div className="addbook">
             <h1 style={{textAlign:"center",color:"blue",textDecoration:"underline 2px solid black"}}> Add a Book</h1>

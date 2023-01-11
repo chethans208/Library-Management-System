@@ -26,4 +26,6 @@ body{
     background-color: rgb(44, 44, 244);
     color: rgb(253, 254, 254);
     font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(3, 89, 218);
 }
