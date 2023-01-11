@@ -1,0 +1,7 @@
+.usernavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(243, 19, 23);
+    
+}

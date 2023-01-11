@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const ReadBook = () => {
     let [book, setBook] = useState([])
@@ -13,14 +13,20 @@ const ReadBook = () => {
         }
         fetchdata();
     }, [])
+    
+    let navigate = useNavigate()
+    let readless = () => {
+        navigate('/admin/book-list')
+    }
     return (
         <div className="readBooks">
             <div className="card">
                 <div className="booktitle">
                     <h1>Read Book: </h1>
-                <h2>{book.title}</h2>
-                <p>{book.shortDescription}</p>
-            </div>
+                    <h2>{book.title}</h2>
+                    <p>{book.shortDescription}</p>
+                    <button onClick={readless} style={{color:"black",padding:"5px 10px"}}>Read less</button>
+                </div>
             </div>
         </div>
     );
